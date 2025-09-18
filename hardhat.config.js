@@ -7,12 +7,12 @@ module.exports = {
   solidity: {
     compilers: [
       {
-        version: "0.8.24", // For Tesnet1 use version "0.8.19"
+        version: "0.8.12", // For Tesnet1 use version "0.8.19"
         settings: {
-          evmVersion: "shanghai", // For Testnet1 use "Paris"
+          //evmVersion: "shanghai", // For Testnet1 use "Paris"
           optimizer: {
             enabled: true,
-            runs: 200,
+            runs: 10000000,
           },
         },
       },
